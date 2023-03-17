@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/vnd.microsoft.icon" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Estilo Propio-->
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid">
+                <img class="navbar-brand brand-logo" src="./images/logo.png">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item btn btn-light ">
+                            <a class="nav-link " href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item btn btn-light">
+                            <a class="nav-link" href="upcomingEvents.html">Upcoming Events</a>
+                        </li>
+                        <li class="nav-item btn btn-light">
+                            <a class="nav-link" href="amazing-events.html">Past Events</a>
+                        </li>
+                        <li class="nav-item btn btn-light nav-active">
+                            <a class="nav-link" aria-current="page" href="contactUs.html">Contact</a>
+                        </li>
+                        <li class="nav-item btn btn-light">
+                            <a class="nav-link"  href="stats.html">Stats</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class=" ">
+        <div class="container-fluid my-2 text-center max-width ">
+            <!-- Wrapper container -->
+            <div class="container py-4 width50">
+        
+                <form id="contactForm">
+                    <!-- Name input -->
+                    <div class="mb-3">
+                        <label class="form-label" for="name">Name</label>
+                        <input class="form-control border-custom" id="name" type="text" placeholder="Name" />
+                    </div>
+                    <!-- Email address input -->
+                    <div class="mb-3">
+                        <label class="form-label" for="emailAddress">Email Address</label>
+                        <input class="form-control border-custom" id="emailAddress" type="email" placeholder="Email Address" />
+                    </div>
+                    <!-- Message input -->
+                    <div class="mb-3">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea class="form-control border-custom" id="message" type="text" placeholder="Message"
+                            style="height: 10rem;"></textarea>
+                    </div>
+                    <!-- Form submit button -->
+                    <div class="d-grid">
+                        <button class="btn btn-light img-shadow btn-light-custom" type="submit">Submit</button>
+                    </div>
+        
+                </form>
+        
+            </div>
+        
+        </div>
+    </main>
+    <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-light background-footer">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">@lumno Gast&oacute;n Chaves</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <i class="bi bi-whatsapp icons-footer"></i>
+            <i class="bi bi-facebook icons-footer"></i>
+            <i class="bi bi-instagram icons-footer"></i>
+
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
